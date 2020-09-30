@@ -15,7 +15,7 @@ You can select a language feature and set its diagnose severity to warning or er
 More information on code analyzers: https://docs.microsoft.com/en-us/visualstudio/code-quality/roslyn-analyzers-overview?view=vs-2019
 
 ## Other solutions
-There are other solutions out there. But non of them is so powerfull like the C# feature blocker.
+There are other solutions out there. But none of them is so powerfull like the C# feature blocker.
 ### .editorconfig
 With the .editorconfig file you can enforce formatting styles and some coding styles. It is possible to disable single csharp features.
 Visual Studio Code does not support the .editorconfig file!
@@ -84,6 +84,10 @@ supported, ~~not supported~~
   - **not yet supported**
 
 ## Versioning
--- table --
-Blocker - C# - VS
+The C# language featues depend on the roslyn compiler plattform.
+
+CsharpFeatureBlocker versions to the corresponding roslyn version. (same version number)
+
+
+.NET compiler platform package version reference: https://docs.microsoft.com/en-us/visualstudio/extensibility/roslyn-version-support?view=vs-2019
 
