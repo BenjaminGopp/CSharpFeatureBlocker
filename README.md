@@ -23,10 +23,10 @@ Visual Studio Code does not support the .editorconfig file!
 ### --langversion
 With the compiler flag --langversion you can set the c# compiler to an earlier language version. But that an **all or nothing** thing. You can not disable a single feature on its own.
 
-## supported Versions
+## Supported Versions
 With the C# feature blocker you can disable most of the latest C# language features.
 
-supported, ***not supported***
+supported, ~~not supported~~
 
 - C# 6
   - read-only auto-properties
@@ -44,29 +44,42 @@ supported, ***not supported***
   - inline out variables
   - tuples
   - discards
-  - ***pattern matching***
+  - ~~pattern matching~~
   - ref locals and returns
   - local functions
   - expression-bodied constructors, finalyzers, properties, indexers
   - throw expression
-  - ***generalized async return types***
+  - ~~generalized async return types~~
   - numeric literal syntax _
 
 - C# 7.1
   - async main
   - default literal expression
-  - ***inferred tuple element names***
-  - ***pattern matching on generic type paramters***
+  - ~~inferred tuple element names~~
+  - ~~pattern matching on generic type paramters~~
 
 - C# 7.2
   - in parameter
   - ref readonly
   - readonly/ref struct
   - private protected accessor
-  - ***conditional ref expressions***
+  - ~~conditional ref expressions~~
   
 - C# 8
-
+  - readonly members
+  - default interface members
+  - switch expression
+  - ~~nullable reference types~~ can be disabled by the compiler
+  - ~~pattern matching~~
+  - single line using
+  - static local functions
+  - asynchronous streams
+  - asynchronous disposable
+  - ~~indices and ranges~~
+  - null-coalescing assignment
+  - ~~unmanaged constructed types~~
+  - ~~stackalloc in nested expressions~~
+    
 - C# 1-5
   - **not yet supported**
 
